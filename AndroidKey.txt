@@ -1,0 +1,20 @@
+--------------------API cua openweathermap dung de lam man hinh home----------------
+APIkey : f8f31d0777ea04c4be8cd4c8a7ca25b5
+thuvien volley : compile 'com.android.volley:volley:1.0.0'
+thuvien picasso : compile 'com.squareup.picasso:picasso:2.5.2'
+APIweatherNow : http://api.openweathermap.org/data/2.5/weather?q=hanoi&apikey=f8f31d0777ea04c4be8cd4c8a7ca25b5&units=metric
+APIweather3day : http://api.openweathermap.org/data/2.5/forecast?q=hanoi&apikey=f8f31d0777ea04c4be8cd4c8a7ca25b5&units=metric
+APIhourly : http://api.openweathermap.org/data/2.5/forecast/hourly?q=hanoi&apikey=f8f31d0777ea04c4be8cd4c8a7ca25b5&units=metric
+
+API googlemap : AIzaSyAblItsEZkYYvPVT4S5KNhf8hzQ94be-mk
+APIID Accu : Zs4l21McPtDZUKSrYh0CSshhPb6l4kw3 
+--------------------API cua accuWeather dung de lay thong tin 5 ngay tiep theo va nhiet do theo gio--------------------
+(citysearch) http://dataservice.accuweather.com/locations/v1/cities/search?apikey=Zs4l21McPtDZUKSrYh0CSshhPb6l4kw3%20&q=saigon&language=en&details=false
+(hourly)http://dataservice.accuweather.com/currentconditions/v1/1-353412_1_AL/historical/24?apikey=Zs4l21McPtDZUKSrYh0CSshhPb6l4kw3&language=en&metric=true
+-------------------------("1-353412_1_AL" la id cua tp HaNoi)---------------------
+(5day)http://dataservice.accuweather.com/forecasts/v1/daily/5day/1-353412_1_AL?apikey=Zs4l21McPtDZUKSrYh0CSshhPb6l4kw3&language=en&details=true&metric=true
+(get icon image)https://developer.accuweather.com/sites/default/files/15-s.png 
+
+
+
+deadline : sau 30/4 (dich vu,android)
